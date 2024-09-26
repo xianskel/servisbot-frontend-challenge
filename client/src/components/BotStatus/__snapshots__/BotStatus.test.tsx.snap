@@ -1,0 +1,67 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BotStats > renders correct for status DISABLED 1`] = `
+<DocumentFragment>
+  <span
+    class="p-tag p-component p-tag-danger"
+    data-pc-name="tag"
+    data-pc-section="root"
+  >
+    <span
+      class="p-tag-icon pi pi-exclamation-triangle"
+      data-pc-section="icon"
+    />
+    <span
+      class="p-tag-value"
+      data-pc-section="value"
+    >
+      DISABLED
+    </span>
+    <span />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`BotStats > renders correct for status ENABLED 1`] = `
+<DocumentFragment>
+  <span
+    class="p-tag p-component p-tag-success"
+    data-pc-name="tag"
+    data-pc-section="root"
+  >
+    <span
+      class="p-tag-icon pi pi-check-circle"
+      data-pc-section="icon"
+    />
+    <span
+      class="p-tag-value"
+      data-pc-section="value"
+    >
+      ENABLED
+    </span>
+    <span />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`BotStats > renders correct for status PAUSED 1`] = `
+<DocumentFragment>
+  <span
+    class="p-tag p-component p-tag-warning"
+    data-pc-name="tag"
+    data-pc-section="root"
+  >
+    <span
+      class="p-tag-icon pi pi-pause-circle"
+      data-pc-section="icon"
+    />
+    <span
+      class="p-tag-value"
+      data-pc-section="value"
+    >
+      PAUSED
+    </span>
+    <span />
+  </span>
+</DocumentFragment>
+`;

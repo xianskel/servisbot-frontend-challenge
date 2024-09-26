@@ -38,7 +38,7 @@ const LogView = (props: PropTypes) => {
             </tr>
             <tr>
               <td>Message:</td>
-              <td style={{ wordBreak: "break-word" }}>{log.message}</td>
+              <td className={style.message}>{log.message}</td>
             </tr>
           </tbody>
         </table>
@@ -62,7 +62,7 @@ const LogView = (props: PropTypes) => {
       header={`Logs for ${owner}`}
       visible={visible}
       blockScroll
-      className={style.dialog}
+      style={{ height: "100vh", maxHeight: "100vh", width: "100vw" }}
       onHide={onClose}
     >
       <DataView
