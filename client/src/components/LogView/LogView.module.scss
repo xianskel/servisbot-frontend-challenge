@@ -1,8 +1,14 @@
 .item {
-  margin-bottom: "20px";
-  font-size: "0.7rem";
+  margin-bottom: 20px;
+  font-size: 0.7rem;
 }
 
 .message {
-  word-break: "break-word";
+  word-break: break-word;
+}
+
+.dialog {
+  height: 100vh;
+  max-height: 100vh;
+  width: 100vw;
 }

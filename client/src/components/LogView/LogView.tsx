@@ -62,7 +62,7 @@ const LogView = (props: PropTypes) => {
       header={`Logs for ${owner}`}
       visible={visible}
       blockScroll
-      style={{ height: "100vh", maxHeight: "100vh", width: "100vw" }}
+      className={style.dialog}
       onHide={onClose}
     >
       <DataView
