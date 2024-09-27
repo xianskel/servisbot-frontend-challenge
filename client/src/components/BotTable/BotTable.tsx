@@ -33,6 +33,10 @@ const BotTable = (props: PropTypes) => {
     setSelectedBot(bot.name);
   };
 
+  const statusIcon = (bot: Bot): JSX.Element => {
+    return <BotStatus status={bot.status}></BotStatus>;
+  };
+
   const workersButton = (bot: Bot): JSX.Element => {
     return (
       <Button
@@ -71,7 +75,7 @@ const BotTable = (props: PropTypes) => {
           {!isMobileScreen && (
             <Column field="description" header="Description"></Column>
           )}
-          <Column header="Status" body={BotStatus} align="center"></Column>
+          <Column header="Status" body={statusIcon} align="center"></Column>
           <Column header="Workers" body={workersButton} align="center"></Column>
           <Column header="Logs" body={logsButton} align="center"></Column>
         </DataTable>
