@@ -30,7 +30,6 @@ const App = () => {
   }, []);
 
   const onWorkersSelected = (bot: Bot) => {
-    // setShowingBots(false);
     setSelectedBot(bot);
   };
 
