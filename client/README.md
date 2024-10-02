@@ -26,7 +26,7 @@ The unit tests use Vitest and React Testing Library
 
 The e2e tests were created using Cypress
 
-The tests expect the app to be running on https://localhost:3000
+The tests expect the app to be running on http://localhost:3000
 
 `npm run e2e` will launch the Cypress browser console, where you can find and run the tests in a live browser
 
